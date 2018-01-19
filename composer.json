@@ -1,0 +1,5 @@
+{
+    "require": {
+        "securetrading/stpp_json": "^1.0"
+    }
+}
