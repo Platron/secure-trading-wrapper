@@ -1,5 +1,16 @@
 {
-    "require": {
-        "securetrading/stpp_json": "^1.0"
-    }
+	"name": "payprocessing/securetrading-sdk",
+	"description": "Connectum SDK",
+	"require": {
+		"php": ">=5.3.0",
+		"securetrading/stpp_json": "^1.0"
+	},
+	"require-dev": {
+		"php": ">=5.6"
+	},
+	"autoload": {
+		"psr-4": {
+			"Platron\\securetrading\\": "src"
+		}
+	}
 }
