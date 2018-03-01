@@ -1,6 +1,6 @@
 {
 	"name": "payprocessing/securetrading-sdk",
-	"description": "Connectum SDK",
+	"description": "securetrading SDK",
 	"require": {
 		"php": ">=5.3.0",
 		"securetrading/stpp_json": "^1.0"
