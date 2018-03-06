@@ -61,6 +61,13 @@ abstract class BaseResponse {
 	/**
 	 * @return string
 	 */
+	public function getProcessingTime() {
+		return $this->getRawResponseData()['transactionstartedtimestamp'];
+	}
+
+	/**
+	 * @return string
+	 */
 	public function getRequestTypeDescription() {
 		return $this->getRawResponseData()['requesttypedescription'];
 	}
