@@ -2,8 +2,6 @@
 
 namespace Platron\securetrading;
 
-use Securetrading\Stpp\JsonInterface\Response as WrappedResponse;
-
 abstract class BaseAuthRequest extends BaseRequest {
 
 	/**

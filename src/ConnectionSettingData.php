@@ -15,7 +15,7 @@ class ConnectionSettingData {
 	 * @param string $password
 	 */
 	public function __construct(string $login, string $password) {
-		$configData = [];
+		$this->configData = [];
 		$this->configData['username'] = $login;
 		$this->configData['password'] = $password;
 	}

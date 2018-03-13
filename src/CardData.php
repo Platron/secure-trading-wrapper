@@ -11,9 +11,9 @@ class CardData {
 
 	/**
 	 * Constructor.
-	 * @param string $pan,
-	 * @param string $expiryMonth,
-	 * @param string $expiryYear,
+	 * @param string $pan
+	 * @param string $expiryMonth
+	 * @param string $expiryYear
 	 * @param string $securityCode
 	 */
 	public function __construct(
