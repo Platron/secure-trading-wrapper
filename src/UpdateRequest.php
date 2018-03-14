@@ -35,6 +35,13 @@ class UpdateRequest extends BaseRequest {
 	}
 
 	/**
+	 * @param string $amount
+	 */
+	public function setAmount(string $amount) {
+		$this->optionalData['updates']['settlebaseamount'] = $amount;
+	}
+
+	/**
 	 * @inheritdoc
 	 */
 	public function createResponse(WrappedResponse $wrappedResponse) {
