@@ -9,17 +9,17 @@ class RecurringAuthRequest extends BaseAuthRequest {
 	/**
 	 * @param string $siteReference
 	 * @param string $parentTransactionReference
-	 * @param string $orderNumber
+	 * @param string $orderCount
 	 */
 	public function __construct(
 		string $siteReference,
 		string $parentTransactionReference,
-		string $orderNumber
+		string $orderCount
 	) {
 		parent::__construct();
 		$this->requiredData['sitereference'] = $siteReference;
 		$this->requiredData['parenttransactionreference'] = $parentTransactionReference;
-		$this->requiredData['subscriptionnumber'] = $orderNumber;
+		$this->requiredData['subscriptionnumber'] = $orderCount;
 	}
 
 	/**
